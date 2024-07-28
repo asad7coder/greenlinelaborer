@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
-// import menu_icon from "../../assets/menu-icon.png";
+import menu_icon from "../../assets/menu-icon.png";
 
 // toggle
 
@@ -50,7 +50,13 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <span onClick={toggleMenu}>tt</span>
+        <img
+          src={menu_icon}
+          alt=""
+          className="menu_icon"
+          onClick={toggleMenu}
+        />
+        {/* <span onClick={toggleMenu}></span> */}
       </nav>
     </header>
   );

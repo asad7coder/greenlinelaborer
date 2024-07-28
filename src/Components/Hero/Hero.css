@@ -6,6 +6,7 @@
   padding: 30px 20px 40px 40px;
 }
 .left-hero{
+  flex-basis: 60%;
 /* width: 40%; */
 }
 .left-hero h1{
@@ -19,10 +20,45 @@
   color: rgb(73, 72, 72);
 }
 .right-hero{
-  /* width: 50%; */
+  flex-basis: 40%;
+ 
 }
 .right-hero img{
   width: 300px;
-  height: 270px;
   border-radius: 6px;
+}
+
+
+
+/* media query */
+
+@media (max-width:850px) {
+  .hero{
+    flex-direction: column;
+  }
+  .left-hero{
+
+    order: 2;
+  }
+  .right-hero{
+    flex-basis: 100%;
+  }
+  .left-hero h1{
+     text-align: center;
+     font-size:40px ;
+     
+  }
+  .left-hero p{
+    text-align: center;
+  }
+  .right-hero img{
+width: 100%;
+  }
+  
+}
+@media (max-width:450px) {
+  .left-hero h1{
+    font-size: 20px;
+    line-height: 22px;
+  }
 }

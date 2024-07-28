@@ -32,7 +32,7 @@ nav ul li:active{
   color: rebeccapurple;
   border-bottom: 2px solid greenyellow;
 }
-span{
+.menu_icon{
   display: none;
 }
 
@@ -51,14 +51,16 @@ span{
     padding:25px;
     background-color: white;
     transition: 0.4s;
+    height: 100vh;
   }
   nav ul li{
     display: block;
     max-width: 24px 50px;
   }
-  span{
+  .menu_icon{
     display: block;
     cursor: pointer;
+    width: 30px;
   }
  .hide-mobile{
   right: -250px;
