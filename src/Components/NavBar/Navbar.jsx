@@ -15,7 +15,7 @@ const Navbar = () => {
     <header>
       <nav>
         <Link to="hero" smooth={true} offset={-150} duration={500}>
-          <h1>GreenLineLaborer</h1>
+          <h1 id="logo">GreenLineLaborer</h1>
         </Link>
         <ul className={mobileMenu ? "" : "hide-mobile"}>
           <li>

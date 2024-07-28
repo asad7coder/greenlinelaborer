@@ -6,8 +6,6 @@ const Services = () => {
     <div className="services">
       <div className="services-col1">
         <Services_box />
-        <Services_box />
-        <Services_box />
       </div>
     </div>
   );

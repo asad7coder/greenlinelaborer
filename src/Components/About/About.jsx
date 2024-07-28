@@ -1,5 +1,5 @@
 import React from "react";
-import Service_three from "../../assets/service-three.png";
+import about_one from "../../assets/about.jpeg";
 import "./About.css";
 
 const About = () => {
@@ -34,7 +34,7 @@ const About = () => {
           </ul>
         </div>
         <div className="about-col3">
-          <img src={Service_three} alt="" />
+          <img src={about_one} alt="" />
         </div>
       </div>
     </div>

@@ -8,8 +8,12 @@ nav{
   top: 0;
   background-color: white;
 }
-nav h1{
+#logo{
+  color: green;
   cursor: pointer;
+}
+#logo:hover{
+  color: goldenrod;
 }
 nav ul{
   display: flex;

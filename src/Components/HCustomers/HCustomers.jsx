@@ -1,6 +1,6 @@
 import React from "react";
 import "./HCustomers.css";
-import happy from "../../assets/happy.png";
+import happy from "../../assets/happy.jpeg";
 const HCustomers = () => {
   return (
     <div className="hCustomers">

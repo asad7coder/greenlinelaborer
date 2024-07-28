@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import list from "../../assets/potal.png";
+import list from "../../assets/potal.jpeg";
 const Hero = () => {
   return (
     <div className="hero">

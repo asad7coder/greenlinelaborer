@@ -1,6 +1,6 @@
 import React from "react";
-import boy_1 from "../../assets/boy1.png";
-import girl_1 from "../../assets/girl1.png";
+import boy_1 from "../../assets/boy1.jpeg";
+import boy_2 from "../../assets/boy2.jpeg";
 import "./Team.css";
 const Team = () => {
   return (
@@ -27,7 +27,7 @@ const Team = () => {
           </div>
         </div>
         <div className="team-row2">
-          <img src={girl_1} alt="" />
+          <img src={boy_2} alt="" />
           <div className="data">
             <h1>Jamie Morrison</h1>
             <p>
