@@ -1,0 +1,49 @@
+.subscribe{
+  width: 100%;
+  text-align: center;
+  background-color: #f4f8fd;
+}
+.subscribe h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.subscribe p{
+  margin-bottom: 20px;
+}
+.subscribe input{
+  width: 600px;
+    height: 40px;
+    border-radius: 6px 6px 6px 6px;
+    border: none;
+  background-color: rgb(122, 122, 122);
+    color: green;
+    padding: 5px 0 5px 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.subscribe input::placeholder{
+  color: white;
+}
+.subscribe input:focus{
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+.subscribe .subscribe-btn{
+  width: 100px;
+    height: 50px;
+    border-radius: 6px 6px 6px 6px;
+    background-color: #2270e2;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #2270e2;
+}
+#copyFooter{
+  width: 50%;
+  height: 40px;
+  margin-top: 30px;
+  background-color: black;
+  color: wheat;
+  border-radius: 30px;
+  padding-top: 9px;
+}

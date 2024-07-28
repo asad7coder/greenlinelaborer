@@ -1,0 +1,64 @@
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+nav h1{
+  cursor: pointer;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li{
+  display:inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+nav ul li:hover{
+  color: green;
+}
+nav ul li:active{
+  color: rebeccapurple;
+  border-bottom: 2px solid greenyellow;
+}
+span{
+  display: none;
+}
+
+/* media query */
+
+@media (max-width:800px) {
+  nav{
+    align-items: start;
+  }
+  nav ul{
+    display: block;
+    width: 170px;
+    position: fixed;
+    top: 35px;
+    right: 0px;
+    padding:25px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  nav ul li{
+    display: block;
+    max-width: 24px 50px;
+  }
+  span{
+    display: block;
+    cursor: pointer;
+  }
+ .hide-mobile{
+  right: -250px;
+ }
+  
+  
+}
