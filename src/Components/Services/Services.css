@@ -7,7 +7,17 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 
+}
+
+/* Media Query */
+
+@media (max-width: 850px) {
+  .services-col1{
+    flex-direction: column;
+  }
+  
+  
 }

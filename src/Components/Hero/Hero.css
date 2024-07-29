@@ -1,8 +1,9 @@
 .hero{
   width: 100%;
-  margin-top: 50px;
+  margin-top: 75px;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   padding: 30px 20px 40px 40px;
 }
 .left-hero{
@@ -20,7 +21,7 @@
   color: rgb(73, 72, 72);
 }
 .right-hero{
-  flex-basis: 40%;
+  flex-basis: 18%;
  
 }
 .right-hero img{

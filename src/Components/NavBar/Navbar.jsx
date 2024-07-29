@@ -33,11 +33,11 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="team" smooth={true} offset={-170} duration={500}>
               Team
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="hCustomers" smooth={true} offset={-200} duration={500}>
               Happy_Customer

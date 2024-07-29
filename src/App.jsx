@@ -18,8 +18,8 @@ const App = () => {
         <Services />
         <Title title="About" />
         <About />
-        <Title title="Team" />
-        <Team />
+        {/* <Title title="Team" />
+        <Team /> */}
         <Title title="Happy Customer" />
         <HCustomers />
         <Subscribe />

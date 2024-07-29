@@ -2,10 +2,11 @@ nav{
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 12px;
   position: fixed;
   top: 0;
+  left: 0;
   background-color: white;
 }
 #logo{
@@ -46,12 +47,13 @@ nav ul li:active{
     display: block;
     width: 170px;
     position: fixed;
-    top: 35px;
+    top: 20px;
     right: 0px;
     padding:25px;
     background-color: white;
     transition: 0.4s;
     height: 100vh;
+    z-index: -2;
   }
   nav ul li{
     display: block;
