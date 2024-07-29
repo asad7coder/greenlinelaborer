@@ -9,9 +9,12 @@
   gap: 20px;
 
 }
-
 .about-col1,.about-col2,.about-col3{
   flex-basis:30%;
+}
+.about ul li{
+  list-style: circle;
+  margin: 10px;
 }
 .about .about-col3 img{
   width: 300px;
@@ -41,9 +44,11 @@
   }
   .about .about-col3 img{
     width: 100%;
+    /* margin-left: 30px; */
 
   }
   .about-col1,.about-col2,.about-col3{
     flex-basis:100%;
   }
+  
 }

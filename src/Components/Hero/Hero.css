@@ -4,11 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 20px 40px 40px;
 }
 .left-hero{
   flex-basis: 60%;
-/* width: 40%; */
 }
 .left-hero h1{
   font-size: 50px;
